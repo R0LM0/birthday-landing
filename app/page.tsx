@@ -198,7 +198,29 @@ export default function BirthdayPage() {
       {/* Footer */}
       <footer className="bg-muted/30 py-8 mt-16">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-muted-foreground font-mono">made by r0lm0.dev your friend | Version 35.0.0</p>
+          <p className="text-muted-foreground font-mono">
+            made by{" "}
+            <a 
+              href="https://github.com/R0LM0/birthday-landing" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:text-blue-400 cursor-pointer transition-colors duration-200"
+            >
+              r0lm0.dev
+            </a>
+            {" "}your friend | Version 35.0.0
+          </p>
+          <p className="text-xs text-muted-foreground/60 mt-2">
+            Icon by{" "}
+            <a 
+              href="https://www.flaticon.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-300 transition-colors duration-200"
+            >
+              Flaticon
+            </a>
+          </p>
         </div>
       </footer>
     </div>
