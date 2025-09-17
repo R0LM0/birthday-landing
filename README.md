@@ -109,7 +109,7 @@ const consoleMessages = [
   "$ node birthday_wishes.js",
   "> Inicializando celebración...",
   // Agrega tus propios mensajes aquí
-]
+];
 ```
 
 ## 🤝 Contribuciones
@@ -128,7 +128,8 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ## 🎂 Dedicatoria
 
-Hecho con ❤️ para R0LMO en su 35º cumpleaños. ¡Que tengas un año lleno de commits exitosos y proyectos increíbles!
+<VibeCoding />
+Hecho con dedicación para R0LMO en su 35º cumpleaños. ¡Que tengas un año lleno de commits exitosos y proyectos increíbles!
 
 ---
 
