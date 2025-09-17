@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Cake, Coffee, Sparkles, Terminal, Zap } from "lucide-react"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export default function BirthdayPage() {
   const [showMessage, setShowMessage] = useState(false)
@@ -83,6 +84,10 @@ export default function BirthdayPage() {
 
       {/* Header Section */}
       <header className="relative overflow-hidden bg-gradient-to-r from-primary/10 via-secondary/10 to-primary/10 py-20">
+        {/* Theme Toggle Button */}
+        <div className="absolute top-4 right-4 z-20">
+          <ThemeToggle />
+        </div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <div className="mb-8">
             <Terminal className="w-16 h-16 mx-auto mb-4 text-primary glow-animation" />
