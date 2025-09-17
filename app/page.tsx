@@ -96,7 +96,7 @@ export default function BirthdayPage() {
           </h1>
 
           {showMessage && (
-            <div className="typewriter font-mono text-xl md:text-2xl text-foreground mb-8 mx-auto max-w-2xl">
+            <div className="typewriter font-mono text-sm sm:text-base md:text-xl lg:text-2xl text-foreground mb-8 mx-auto max-w-2xl px-4">
               // Compilando 35 años de mi mejor amigo...
             </div>
           )}
